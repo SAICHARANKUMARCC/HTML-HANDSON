@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .card{
+            width: 200px;
+            padding: 5px;
+            border: 2px solid black;
+            box-shadow: 2px 2px 2px gray;
+        }
+        .card:target{
+            background-color: black;
+            color:white;
+            font-size: 25px;
+            transition: 2s;
+        }
+        .container {
+            display: flex;
+        }
+        .menu {
+            display: flex;
+            list-style: none;
+        }
+        .menu li {
+            margin-left: 50px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#menu">Html</a></li>
+            <li><a href="#css">Css</a></li>
+             <li><a href="#javascript">Javascript</a></li>
+        </ul>
+    </nav> 
+    <div class="container">
+        <div class="card" id="html">
+            <h2>HTML</h2>
+            <ul>
+                <li>Normal Elements</li>
+                <li>Void Elements</li>
+                <li>RC Data Elements</li>
+            </ul>
+        </div>
+        <div class="card" id="css">
+            <h2>CSS</h2>
+            <ul>
+                <li>Selectors</li>
+                <li>CSS Units</li>
+                <li>CSS Colors</li>
+            </ul>
+        </div>
+        <div class="card" id="javascript">
+            <h2>JavaScript</h2>
+            <ul>
+                <li>Variables</li>
+                <li>Data Types</li>
+                <li>Operators</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign In</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="images/amazon_icon-icons.com_62714.png">
+    <style>
+        .container-fluid{
+            display:flex;
+            justify-content: center;
+            margin-top: 50px ;
+        }
+        .btn-1{
+            background:#f0c14b;
+            background-color: #a88734 #9c7e31 #846a29;
+            border: none;
+        }
+        .btn{
+            background: #e7e9ec;
+            border-radius: 3px;
+            border-color: #adb1b8 #a2a6ac #8d9096;
+            border-style: solid;
+            border-width: 1px;
+            display: inline-block;
+            padding: 0;
+            text-align: center;
+            text-decoration: none!important;
+            vertical-align: middle;
+        }
+        header{
+            text-align: center;
+            margin-bottom: -10px;
+        }
+        .form-label{
+            font-size:10px;
+            font-weight: bold;
+        }
+        fieldset {
+            border-left: 100px black;
+            border-bottom: none;
+            border-right: none;
+            position: relative;
+            margin-top:10px;
+        }
+        legend {
+            justify-content: space-around;
+            font-size: 12px;
+            color: #767676;
+            font-weight: 400;
+            position: relative;
+            display:flex;
+            background-color: #fff;
+            padding: 0 8px 0 7px;
+            border-left: 100px black;
+            border-width: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <div>
+      <img src="images/amazon-logo.jpeg" height="60px" width="100px" align="center">
+      </div>
+        
+    </header>
+    <div class="container-fluid mt-4">
+        <form method="post" class="border border-opacity-25 rounded w-25 p-4" >
+        <div class="mb-sm-auto">
+           <label class="form-label">
+            <h3>Sign in</h3>
+           </label>
+        </div>
+        <div>
+           <label class="form-label">
+            <h6>Enter Mobile Number or Email</h6>
+           </label>
+        </div>
+        <div class="mb-4">
+            <input type="text" class="form-control" pattern="+91" >
+        </div>
+        <div>
+          <button class=" btn-1 rounded w-100 ">
+            Continue
+         </button>
+        </div>
+        <div>
+            <label class="form-label">
+                <h9>By continuing, you agree to Amazon's <a href="">Conditions of Use</a> and <a href="">Privacy Notice.</a></h9>
+            </label>
+        </div>
+        <div class="mb-4">
+            <details>
+                <div>
+                    <a href=""> Forgot Password</a>
+                </div>
+                <div>
+                    <a href=""> Other issues with sign in </a>
+                </div>
+                <summary>
+                    <a href="">Need help?</a>
+                </summary>
+            </details>          
+        </div>   
+      </form>
+    </div>
+    <div class="mb-2">
+        <fieldset>
+            <legend>
+                New to Amazon?
+            </legend>
+        </fieldset>
+    </div>   
+      <form method="post" class="mt-4" >
+        <div class="container-fluid w-25 mt-4">
+            <button class="btn  w-100">Create your Amazon account</button>
+          </div>
+      </form>
+</body>
+</html>

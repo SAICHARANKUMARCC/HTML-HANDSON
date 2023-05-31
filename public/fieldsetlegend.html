@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+    <style>
+        dl{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+        dt{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        dd{
+            background-color: gray;
+            padding: 5px;
+            margin-bottom: 10px;
+            color: white;
+        }
+        fieldset{
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 2px black;
+            border-radius: 3px groove gray;
+        }
+        legend {
+            background-color: gray;
+            color:white;
+            padding: 5px;
+            width: 150px;  
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 2px black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <dl>
+            <dt>User Name</dt>
+            <dd>Some Name</dd>
+            <dt>Age</dt>
+            <dd>Some Age</dd>
+            <dt>DOB</dt>
+            <dd>Some Value</dd>
+        </dl>
+    </fieldset>
+    <fieldset>
+                <legend>Personal Info</legend>
+                <dl>
+        <dt>City</dt>
+        <dd>Some City</dd>
+        <dt>State</dt>
+        <dd>Some State</dd>
+        <dt>Postal COde</dt>
+        <dd>SOme value</dd>
+    </dl> 
+                </fieldset>
+    
+</body>
+</html>

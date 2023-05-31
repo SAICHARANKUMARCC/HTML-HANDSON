@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Grid2</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .temp{
+            font-size: 50px;
+            color: white;
+            margin-top: -40px;
+        }
+        td{
+        color: white;
+        font-weight: bold;
+       }
+       tr{
+        border-bottom:20px white;
+        color: white;
+       }
+      .parent-table{
+        background-size: cover;
+      }
+    </style>
+</head>
+<body>
+    <table class="parent-table"align="center" frame="box" width="500" height="400"  cellspacing="5" cellpadding="15" rules="none"  background="images/cleansky.jpeg">
+        <tr height="200">
+            <td colspan="6" align="center" valign="center" height=200>
+              <div >
+                 <h2>Warsaw</h2> 
+                  <div>clear sky</div> 
+                  <div class="temp"><h2>7&#8451;</h2></div>
+                 <div> Pressure=1023 &nbsp; | &nbsp; Humidity:82&#8451;</div>
+              </div>
+            </td>
+        </tr>
+        <tr height="100">
+                <td>
+                   Now
+                </td>
+                <td>
+                 10&#176;
+                </td>
+                <td>
+                  11&#176;
+                </td>
+                <td>
+                    12&#176;
+                </td>
+                <td>
+                    13&#176;
+                </td>
+                <td>
+                    14&#176;
+                </td>
+        </tr>
+        <tr height="100">
+                <td>
+                  6.98&#176;
+                </td>
+                <td>
+                 7.16&#176;
+                </td>
+                <td>
+                    7.21&#176;
+                </td>
+                <td>
+                    7.52&#176;
+                </td>
+                <td>
+                    8.53&#176;
+                </td>
+                <td>
+                    9.09&#176;
+                </td>
+        </tr>
+        <tr height="100" >
+            <td align="left" valign="center" colspan="5">
+                Today &nbsp; &nbsp;<br> <br>
+                Tomorrow &nbsp; &nbsp; <br> <br>
+                DayAfterTomorrow &nbsp; &nbsp;
+
+            </td>
+            <td align="right" valign="center" colspan="1" frame="above">
+                7&#176; <br> <br>
+                12&#176;  <br> <br>
+                10&#176; 
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
